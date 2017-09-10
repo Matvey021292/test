@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="img/logotitle.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <header style="background-image: url(img/bg_poly.png);">
+        <div class="content">
+            <div id="nav-icon2" class="nav_button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="main_logo wow fadeInDown">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <ul class="nav_main ">
+                    <li><a href="#" title="">About</a></li>
+                    <li><a href="#" title="">Download</a></li>
+                    <li><a href="#" title="">Workflow</a></li>
+                    <li><a href="#" title="">Support</a></li>
+                    <li><a href="#" title="">User Stories</a></li>
+                    <li><a href="#" title="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="banner_header">
+                <div class="banner_header_text wow fadeInLeft">
+                    <h2>Built with app designers in mind</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="button">How it work</a>
+                </div>
+                <div class="banner_header_photo wow fadeInRight">
+                    <figure>
+                        <img src="img/iphone.png" alt="phone_logo">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="content content_section">
+            <div class="content_section_text wow bounceIn" data-wow-offset="0" data-wow-delay="1s">
+                <p>How it works</p>
+                <h3>Lorem ipsum is simply</h3>
+            </div>
+            <div class="sections_info "  >
+                <div class="section_info wow slideInRight" data-wow-offset="10">
+                    <figure>
+                        <img src="img/ic-food.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+                <div class="section_info wow slideInRight" data-wow-offset="11" data-wow-delay="1s">
+                    <figure>
+                        <img src="img/ic-cart.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+                <div class="section_info wow slideInRight" data-wow-offset="15" data-wow-delay="2s">
+                    <figure>
+                        <img src="img/ic-setting.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+            </div>
+            <div class="sections_info sections_info">
+                <div class="section_info wow slideInLeft" data-wow-offset="15" data-wow-delay="2s">
+                    <figure>
+                        <img src="img/ic-user.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+                <div class="section_info wow slideInLeft" data-wow-offset="11" data-wow-delay="1s">
+                    <figure>
+                        <img src="img/ic-edit.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+                <div class="section_info wow slideInLeft" data-wow-offset="15" >
+                    <figure>
+                        <img src="img/ic-email.png" alt="photo">
+                    </figure>
+                    <a href="#" title="">Lorem ipsum is simply dummy</a>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="send_mail">
+            <div class="content ">
+                <div class="container_form wow pulse" data-wow-offset="5" >
+                    <h3>Receive notification now</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor.</p>
+                    <form action="" method="post" accept-charset="utf-8">
+                        <input required type="email" name="mail" placeholder="Your email address ...">
+                        <input type="submit" name="submit" value="I’M READY!">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <p>Copyright by Comtruavip 2017</p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com" title="" style="img/ic-face.png"><img src="img/ic-face.png" alt="social"></a></li>
+                <li><a href="https://www.google.com" title="" style="img/ic-google plus.png"><img src="img/ic-google plus.png" alt="social"></a></li>
+                <li><a href="https://www.instagram.com" title="" style="img/ic-instagram.png"><img src="img/ic-instagram.png" alt="social"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script>
+    document.querySelector('#nav-icon2').addEventListener('click', function() {
+        var i = document.querySelector('#nav-icon2');
+
+        if (i.classList.contains('open')) {
+            i.classList.remove('open');
+        } else {
+            i.classList.add('open');
+        }
+    });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+    // навигация меню
+
+    $('document').ready(function() {
+
+        $('.nav_button').click(function() {
+
+            $('.nav_main').toggle('');
+
+        });
+        $(window).resize(function() {
+            if ($(window).width() > '510') {
+                $('.nav_main').css('display', 'flex');
+            }
+        });
+
+    })
+    </script>
+</body>
+
+</html>
